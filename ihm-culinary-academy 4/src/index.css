@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:ital,wght@0,300..900;1,300..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Sophisticated Dark Palette (Forest and Luxury Raw Gold) */
+  --color-forest-950: #051109;
+  --color-forest-900: #030a06;
+  --color-forest-850: #081b11;
+  --color-forest-800: #0d2a1d;
+  --color-forest-700: #123d29;
+  --color-forest-600: #1a5138;
+  
+  --color-gold-50: #faf6eb;
+  --color-gold-100: #f3e9cd;
+  --color-gold-200: #e6d39b;
+  --color-gold-300: #d8ba66;
+  --color-gold-400: #cb9f3a;
+  --color-gold-500: #d4af37; /* Luxury Raw Gold */
+  --color-gold-600: #bfa030;
+  --color-gold-700: #967d22;
+  --color-gold-800: #6e5b19;
+  --color-gold-900: #493b11;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030a06;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4af3733;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af3766;
+}
